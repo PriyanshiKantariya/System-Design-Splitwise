@@ -20,12 +20,27 @@ This system design is conceptual and does not include any implementation code. I
 
 ## High-Level Architecture
 
-The system is designed to handle user interactions efficiently, with the following components:
-- **Frontend**: The user interface that allows users to input expenses, view balances, and manage groups.
-- **Backend**: The core logic that handles expense creation, balance calculation, and debt settlement.
-- **Database**: Stores user data, expenses, groups, and balances.
+The system is designed to handle user interactions efficiently and ensure smooth operation through the following key components:
 
-![Architecture Diagram](./Diagrams/architecture-diagram.png)
+- **Frontend**: 
+  - The user interface where users can interact with the application. It includes features for:
+    - **Inputting Expenses**: Users can enter details of expenses and split them among group members.
+    - **Viewing Balances**: Users can check their current balance and see how much they owe or are owed.
+    - **Managing Groups**: Users can create, join, and manage expense-sharing groups.
+
+- **Backend**: 
+  - The core logic of the system responsible for:
+    - **Expense Creation**: Processes and stores details of new expenses submitted by users.
+    - **Balance Calculation**: Computes the balances for each user and ensures they are up-to-date.
+    - **Debt Settlement**: Handles the calculation of payments needed to settle debts between users within groups.
+
+- **Database**: 
+  - The data storage layer where essential information is kept, including:
+    - **User Data**: User profiles, credentials, and preferences.
+    - **Expenses**: Details of all expenses recorded in the system.
+    - **Groups**: Information about user groups and their members.
+
+
 
 ---
 
