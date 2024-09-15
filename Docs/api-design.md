@@ -8,13 +8,6 @@ This document outlines the API design for the system, including endpoints for us
 
 ```
 
-## Authentication
-
-All endpoints require authentication via a Bearer token. Include the token in the `Authorization` header of your requests:
-
-```
-Authorization: Bearer <your_token>
-```
 
 ## Endpoints
 
@@ -257,6 +250,4 @@ All endpoints follow a standard error handling format. Common HTTP status codes 
 ## Rate Limiting
 
 To ensure fair use of the API, rate limiting is implemented. Each user is allowed a maximum of 1000 requests per hour. Exceeding this limit will result in a `429 Too Many Requests` response.
-
-
 ```
