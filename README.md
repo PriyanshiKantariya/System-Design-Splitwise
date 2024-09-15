@@ -77,7 +77,7 @@ The database design focuses on efficient storage and retrieval of user data, exp
 3. **Groups**: Defines groups of users who share expenses.
 4. **Transactions**: Logs individual debts between users and tracks settled amounts.
 
-A sample database schema can be found in the [Database Schema Document](./Docs/database-schema.md).
+Database schema can be found in the [Database Schema Document](./Docs/database-schema.md).
 
 ---
 
@@ -105,16 +105,6 @@ As Splitwise scales, it is essential to handle an increasing number of users and
 
 Further details can be found in the [Scalability Document](./Docs/scalability.md).
 
----
-
-## Diagrams
-
-The following diagrams are included in the repository:
-- **Architecture Diagram**: Shows the high-level architecture of the system.
-- **Database Schema**: A diagram depicting the structure of the database, including tables and relationships.
-- **Data Flow Diagram**: Describes how data flows between components during expense creation and settlement.
-
-Find the diagrams in the [Diagrams Folder](./Diagrams).
 
 ---
 
@@ -130,8 +120,7 @@ Find the diagrams in the [Diagrams Folder](./Diagrams).
 ## How to Navigate the Repository
 
 1. **Docs Folder**: Contains detailed system design documents.
-2. **Diagrams Folder**: Contains architecture and database diagrams.
-3. **README.md**: You are here.
+2. **README.md**: You are here.
 
 ---
 
