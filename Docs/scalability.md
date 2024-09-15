@@ -121,18 +121,6 @@ As the user base of Splitwise grows, it's essential to ensure that the system ca
 
 ---
 
-## Future Scalability Considerations
-
-1. **Global User Base**:
-   - As the system expands globally, consider **geo-replication** to store user data closer to where they are located, reducing latency and improving response times.
-
-2. **Multi-currency Support**:
-   - For an international user base, implement **multi-currency** support, with currency conversion algorithms and caching to handle exchange rates.
-
-3. **Improved Debt Simplification**:
-   - As group sizes grow, the debt simplification algorithm may need optimization to handle a larger number of transactions without slowing down the system.
-
----
 
 
 
