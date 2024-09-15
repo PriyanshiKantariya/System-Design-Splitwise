@@ -1,12 +1,12 @@
 
 
-```markdown
+
 # API Design
 
 This document outlines the API design for the system, including endpoints for user management, group management, expense management, and expense sharing. Each endpoint includes details on its functionality, request parameters, and response format.
 
 
-```
+
 
 
 ## Endpoints
@@ -250,4 +250,3 @@ All endpoints follow a standard error handling format. Common HTTP status codes 
 ## Rate Limiting
 
 To ensure fair use of the API, rate limiting is implemented. Each user is allowed a maximum of 1000 requests per hour. Exceeding this limit will result in a `429 Too Many Requests` response.
-```
